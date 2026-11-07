@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Конструктор раскладки кухни из модулей · ФабрикСтайл</title>
+<meta name="description" content="Соберите раскладку кухни по ширине стены: конструктор считает занятые миллиметры и собирает заявку в WhatsApp.">
+<link rel="canonical" href="https://romjjjke.github.io/fabrik/konstruktor.html">
+<meta property="og:title" content="Конструктор раскладки кухни из модулей · ФабрикСтайл">
+<meta property="og:description" content="Соберите раскладку кухни по ширине стены: конструктор считает занятые миллиметры и собирает заявку в WhatsApp.">
+<meta property="og:type" content="website">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<style>
+:root{--paper:#FAFAF6;--ink:#0F100E;--mute:#6B6A62;--line:rgba(15,16,14,.14);--yellow:#F5C518;--grey:#ECEAE3}
+*{box-sizing:border-box}
+html{overflow-x:hidden;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 16px/1.6 var(--text);overflow-x:hidden}
+img{max-width:100%;display:block}
+[hidden]{display:none!important}
+a{color:inherit;text-decoration:none}
+h1,h2,h3,p,ul,figure{margin:0}
+ul{padding:0;list-style:none}
+.head{position:sticky;top:0;z-index:60;background:var(--paper);border-bottom:1px solid var(--line)}
+.head__in{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px var(--pad);max-width:1440px;margin:0 auto}
+.burger{display:none;background:none;border:1px solid var(--line);padding:9px 12px;font:600 11px/1 var(--text);letter-spacing:.12em;text-transform:uppercase;cursor:pointer}
+@media(max-width:1180px){.burger{display:flex;align-items:center;gap:8px}}
+.hero{padding:clamp(28px,5vw,64px) var(--pad) clamp(20px,3vw,40px)}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:16px 22px;background:var(--ink);color:var(--paper);font:600 14px/1 var(--text);border:1px solid var(--ink);cursor:pointer}
+.btn--y{background:var(--yellow);color:var(--ink);border-color:var(--yellow)}
+</style>
+<link rel="stylesheet" href="assets/css/style.v1.css">
+
+
+</head>
+<body>
+<header class="head">
+  <div class="head__in">
+    <a class="brand" href="index.html"><span class="brand__mark">ФС</span><span class="brand__txt">ФабрикСтайл<i>модульные кухни и шкафы</i></span></a>
+    <nav class="nav" aria-label="Основная навигация"><ul><li><a href="index.html">Главная</a></li><li><a href="katalog.html">Модули</a></li><li><a href="konstruktor.html" aria-current="page">Конструктор</a></li><li><a href="raboty.html">Работы</a></li><li><a href="o-kompanii.html">О компании</a></li><li><a href="kontakty.html">Контакты</a></li></ul></nav>
+    <a class="head__tel" href="tel:+375293546215">+375 (29) 354-62-15</a>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="drawer"><span></span><span></span>Меню</button>
+  </div>
+</header>
+<main>
+<section class="phead"><div class="wrap"><h1 class="h1 phead__h">Конструктор раскладки</h1><p class="phead__sub">Соберите кухню из модулей по ширине своей стены. Конструктор считает занятые миллиметры и собирает заявку в WhatsApp.</p></div></section>
+<section class="cfgsec cfgsec--page">
+  <div class="wrap"><div class="cfg" data-cfg>
+  <div class="cfg__side">
+    <div class="cfg__field">
+      <label class="cfg__label" for="wall-47268964495936">Ширина стены под кухню</label>
+      <div class="cfg__range-row">
+        <input class="cfg__range" id="wall-47268964495936" type="range" min="1600" max="4200" step="50" value="2400">
+        <output class="cfg__wall">2400 мм</output>
+      </div>
+      <p class="cfg__hint">Ползунок двигайте от 1,6 до 4,2 м. Если стена длиннее, кухню ставят буквой Г.</p>
+    </div>
+    <div class="cfg__presets">
+      <span class="cfg__cap">Готовые раскладки</span>
+      <button type="button" class="cfg__preset" data-preset="compact">Компакт 1,6 м</button>
+      <button type="button" class="cfg__preset" data-preset="standard">Стандарт 2,4 м</button>
+      <button type="button" class="cfg__preset" data-preset="big">Большая 3,2 м</button>
+    </div>
+    <div class="cfg__group">
+      <span class="cfg__cap">Добавить модуль</span>
+      <ul class="cfg__list"><li><button type="button" class="cfg__add" data-add="f400" data-w="400" data-row="floor"><span class="cfg__add-n">Напольный 400</span><span class="cfg__add-w">400 мм</span><span class="cfg__add-plus">+</span></button></li><li><button type="button" class="cfg__add" data-add="f600" data-w="600" data-row="floor"><span class="cfg__add-n">Напольный 600</span><span class="cfg__add-w">600 мм</span><span class="cfg__add-plus">+</span></button></li><li><button type="button" class="cfg__add" data-add="f800" data-w="800" data-row="floor"><span class="cfg__add-n">Напольный 800</span><span class="cfg__add-w">800 мм</span><span class="cfg__add-plus">+</span></button></li><li><button type="button" class="cfg__add" data-add="sink" data-w="800" data-row="floor"><span class="cfg__add-n">Тумба под мойку 800</span><span class="cfg__add-w">800 мм</span><span class="cfg__add-plus">+</span></button></li><li><button type="button" class="cfg__add" data-add="hob" data-w="600" data-row="floor"><span class="cfg__add-n">Модуль под плиту 600</span><span class="cfg__add-w">600 мм</span><span class="cfg__add-plus">+</span></button></li><li><button type="button" class="cfg__add" data-add="tall" data-w="600" data-row="tall"><span class="cfg__add-n">Пенал 600</span><span class="cfg__add-w">600 мм</span><span class="cfg__add-plus">+</span></button></li><li><button type="button" class="cfg__add" data-add="w400" data-w="400" data-row="wall"><span class="cfg__add-n">Верхний 400</span><span class="cfg__add-w">400 мм</span><span class="cfg__add-plus">+</span></button></li><li><button type="button" class="cfg__add" data-add="w600" data-w="600" data-row="wall"><span class="cfg__add-n">Верхний 600</span><span class="cfg__add-w">600 мм</span><span class="cfg__add-plus">+</span></button></li><li><button type="button" class="cfg__add" data-add="shelf" data-w="600" data-row="wall"><span class="cfg__add-n">Открытая полка 600</span><span class="cfg__add-w">600 мм</span><span class="cfg__add-plus">+</span></button></li></ul>
+    </div>
+  </div>
+  <div class="cfg__stage">
+    <div class="cfg__sheet">
+      <div class="cfg__elev" aria-live="polite"></div>
+      <div class="cfg__dim"><span class="cfg__dim-line"></span><span class="cfg__dim-total" data-occupied>0 мм</span></div>
+    </div>
+    <div class="cfg__state">
+      <p class="cfg__note" data-note>Выберите модули слева или возьмите готовую раскладку.</p>
+      <ul class="cfg__chips" data-chips></ul>
+    </div>
+    <div class="cfg__actions">
+      <button type="button" class="cfg__clear" data-clear>Очистить</button>
+      <a class="btn btn--y cfg__send" data-send href="https://wa.me/375293546215" rel="nofollow noopener" target="_blank">Отправить раскладку</a>
+    </div>
+  </div>
+</div></div>
+</section>
+
+<section class="measure">
+  <div class="wrap measure__grid">
+    <div>
+      <h2 class="h2">Как померить стену</h2>
+      <ol class="measure__list">
+        <li><b>1.</b> Рулеткой по стене от угла до угла, на высоте 900 мм от пола.</li>
+        <li><b>2.</b> Отдельно запишите, где газовая труба, вентиляция, розетки и вывод воды.</li>
+        <li><b>3.</b> Проверьте длину и ширину плиты и мойки: модуль под них выбирается по факту.</li>
+        <li><b>4.</b> Если стена длиннее 4 метров, мерьте двумя линиями: кухня пойдёт буквой Г.</li>
+      </ol>
+    </div>
+    <div class="measure__note">
+      <p class="lab">Важно</p>
+      <p>Конструктор показывает раскладку по ширине, но не учитывает трубы и вентиляцию. Пришлите раскладку в WhatsApp и фото стены: поправим под реальные препятствия.</p>
+      <a class="btn btn--y" href="https://wa.me/375293546215" rel="nofollow noopener" target="_blank">Отправить фото стены</a>
+    </div>
+  </div>
+</section>
+
+<section class="faq">
+  <div class="wrap">
+    <h2 class="h2">Вопросы про модули</h2>
+    <div class="faq__grid">
+      <details><summary>Модульная кухня правда дешевле?</summary><p>Да, за счёт типовых деталей и партии. Экономия идёт на раскрое и подгонке, а не на фурнитуре: петли и ящики ставятся те же, что в заказных кухнях.</p></details>
+      <details><summary>Соберу сам?</summary><p>Можно. В комплекте схема и крепёж, корпуса уже с присадкой под петли. Если не хотите, соберём и подключим мойку с плитой.</p></details>
+      <details><summary>Что если стена 2270 мм, а не 2400?</summary><p>Остаток закрывается добором или крайним модулем 400 мм. Если остаток больше 200 мм, лучше взять секцию на 400 и подрезать столешницу.</p></details>
+      <details><summary>Столешница входит?</summary><p>Считается отдельно: длина и материал зависят от раскладки. Скажем цену после того, как увидим спецификацию.</p></details>
+      <details><summary>Доставка за пределы Минска?</summary><p>По всей Беларуси, стоимость зависит от города и объёма. Считаем после спецификации.</p></details>
+      <details><summary>Сроки</summary><p>Зависят от загрузки и выбранных фасадов. Точный срок называем в счёте, до оплаты.</p></details>
+    </div>
+  </div>
+</section>
+<section class="cta">
+  <div class="wrap cta__grid">
+    <div>
+      <h2 class="h2 cta__h">Пришлите раскладку из конструктора</h2>
+      <p class="cta__p">По ней посчитаем спецификацию, столешницу и доставку в ваш город.</p>
+    </div>
+    <div class="cta__acts">
+      <a class="btn btn--y" href="https://wa.me/375293546215" rel="nofollow noopener" target="_blank">Написать в WhatsApp</a>
+      <a class="btn btn--ghost" href="tel:+375293546215">+375 (29) 354-62-15</a>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="foot">
+  <div class="wrap foot__grid">
+    <div>
+      <p class="foot__brand">ФабрикСтайл</p>
+      <p class="foot__small">Модульные кухни и шкафы. Доставка по всей Беларуси.</p>
+    </div>
+    <div>
+      <p class="foot__cap">Связаться</p>
+      <a class="foot__tel" href="tel:+375293546215">+375 (29) 354-62-15</a>
+      <a class="foot__small" href="https://wa.me/375293546215" rel="nofollow noopener" target="_blank">WhatsApp</a>
+    </div>
+    <div>
+      <p class="foot__cap">Разделы</p>
+      <ul class="foot__list">
+        <li><a href="katalog.html">Модули и размеры</a></li>
+        <li><a href="konstruktor.html">Конструктор раскладки</a></li>
+        <li><a href="raboty.html">Работы</a></li>
+        <li><a href="politika.html">Политика обработки данных</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap foot__bottom">
+    <p>ООО «ФабрикСтайл» · 2026</p>
+    <p>УНП: уточняется</p>
+  </div>
+</footer>
+<script src="assets/js/main.v1.js" defer></script>
+<div class="drawer" id="drawer" hidden>
+  <div class="drawer__back" data-close></div>
+  <div class="drawer__inner" role="dialog" aria-modal="true" aria-label="Меню">
+    <div class="drawer__top"><span class="drawer__cap">Меню</span><button class="drawer__x" type="button" data-close aria-label="Закрыть меню">×</button></div>
+    <ul class="drawer__list"><li><a href="index.html">Главная</a></li><li><a href="katalog.html">Модули</a></li><li><a href="konstruktor.html">Конструктор</a></li><li><a href="raboty.html">Работы</a></li><li><a href="o-kompanii.html">О компании</a></li><li><a href="kontakty.html">Контакты</a></li></ul>
+    <div class="drawer__foot">
+      <a class="drawer__tel" href="tel:+375293546215">+375 (29) 354-62-15</a>
+      <a class="btn btn--y" href="https://wa.me/375293546215" rel="nofollow noopener" target="_blank">Написать в WhatsApp</a>
+    </div>
+  </div>
+</div>
+</body>
+</html>

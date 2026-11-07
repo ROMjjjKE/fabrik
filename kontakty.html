@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Контакты · ФабрикСтайл · +375 (29) 354-62-15</title>
+<meta name="description" content="Телефон и WhatsApp +375 (29) 354-62-15. Заявка на расчёт модульной кухни или шкафа.">
+<link rel="canonical" href="https://romjjjke.github.io/fabrik/kontakty.html">
+<meta property="og:title" content="Контакты · ФабрикСтайл · +375 (29) 354-62-15">
+<meta property="og:description" content="Телефон и WhatsApp +375 (29) 354-62-15. Заявка на расчёт модульной кухни или шкафа.">
+<meta property="og:type" content="website">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<style>
+:root{--paper:#FAFAF6;--ink:#0F100E;--mute:#6B6A62;--line:rgba(15,16,14,.14);--yellow:#F5C518;--grey:#ECEAE3}
+*{box-sizing:border-box}
+html{overflow-x:hidden;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 16px/1.6 var(--text);overflow-x:hidden}
+img{max-width:100%;display:block}
+[hidden]{display:none!important}
+a{color:inherit;text-decoration:none}
+h1,h2,h3,p,ul,figure{margin:0}
+ul{padding:0;list-style:none}
+.head{position:sticky;top:0;z-index:60;background:var(--paper);border-bottom:1px solid var(--line)}
+.head__in{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px var(--pad);max-width:1440px;margin:0 auto}
+.burger{display:none;background:none;border:1px solid var(--line);padding:9px 12px;font:600 11px/1 var(--text);letter-spacing:.12em;text-transform:uppercase;cursor:pointer}
+@media(max-width:1180px){.burger{display:flex;align-items:center;gap:8px}}
+.hero{padding:clamp(28px,5vw,64px) var(--pad) clamp(20px,3vw,40px)}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:16px 22px;background:var(--ink);color:var(--paper);font:600 14px/1 var(--text);border:1px solid var(--ink);cursor:pointer}
+.btn--y{background:var(--yellow);color:var(--ink);border-color:var(--yellow)}
+</style>
+<link rel="stylesheet" href="assets/css/style.v1.css">
+
+
+</head>
+<body>
+<header class="head">
+  <div class="head__in">
+    <a class="brand" href="index.html"><span class="brand__mark">ФС</span><span class="brand__txt">ФабрикСтайл<i>модульные кухни и шкафы</i></span></a>
+    <nav class="nav" aria-label="Основная навигация"><ul><li><a href="index.html">Главная</a></li><li><a href="katalog.html">Модули</a></li><li><a href="konstruktor.html">Конструктор</a></li><li><a href="raboty.html">Работы</a></li><li><a href="o-kompanii.html">О компании</a></li><li><a href="kontakty.html" aria-current="page">Контакты</a></li></ul></nav>
+    <a class="head__tel" href="tel:+375293546215">+375 (29) 354-62-15</a>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="drawer"><span></span><span></span>Меню</button>
+  </div>
+</header>
+<main>
+<section class="phead"><div class="wrap"><h1 class="h1 phead__h">Контакты</h1><p class="phead__sub">Позвоните, напишите в WhatsApp или оставьте заявку: ответим в рабочее время и попросим фото стены с размерами.</p></div></section>
+<section class="contact">
+  <div class="wrap contact__grid">
+    <div class="contact__info">
+      <p class="lab">Телефон и WhatsApp</p>
+      <a class="contact__tel" href="tel:+375293546215">+375 (29) 354-62-15</a>
+      <a class="btn btn--y" href="https://wa.me/375293546215" rel="nofollow noopener" target="_blank">Написать в WhatsApp</a>
+      <dl class="contact__dl">
+        <div><dt>Организация</dt><dd>ООО «ФабрикСтайл»</dd></div>
+        <div><dt>Что делаем</dt><dd>Модульные кухни и шкафы</dd></div>
+        <div><dt>Доставка</dt><dd>По всей Беларуси, в разборе</dd></div>
+        <div><dt>Замер</dt><dd>Минск и область, по договорённости</dd></div>
+        <div><dt>УНП</dt><dd>уточняется</dd></div>
+      </dl>
+    </div>
+    <form class="form" novalidate>
+      <p class="form__cap">Заявка на расчёт</p>
+      <label class="form__row"><span>Имя</span><input id="f-name" name="name" type="text" autocomplete="name" required></label>
+      <label class="form__row"><span>Телефон или ник в мессенджере</span><input id="f-contact" name="contact" type="text" autocomplete="tel" required></label>
+      <label class="form__row"><span>Город</span><input id="f-city" name="city" type="text" autocomplete="address-level2"></label>
+      <label class="form__row"><span>Ширина стены, мм</span><input id="f-width" name="width" type="text" inputmode="numeric" placeholder="например 2400"></label>
+      <label class="form__row"><span>Что нужно</span>
+        <select id="f-what" name="what">
+          <option>Кухня из модулей</option>
+          <option>Шкаф или прихожая</option>
+          <option>Кухня и шкаф</option>
+          <option>Пока только считаю цену</option>
+        </select>
+      </label>
+      <label class="form__row"><span>Комментарий</span><textarea id="f-note" name="note" rows="3" placeholder="что за помещение, есть ли газ, когда нужно"></textarea></label>
+      <p class="form__warn" id="order-warn" hidden>Заполните имя и телефон, иначе мы не сможем ответить.</p>
+      <button class="btn btn--y form__btn" type="submit">Отправить в WhatsApp</button>
+      <p class="form__small">Нажимая кнопку, вы соглашаетесь с <a href="politika.html">политикой обработки данных</a>. Сообщение откроется в WhatsApp.</p>
+      <p class="form__ok" id="order-ok" hidden>Готово. Текст собран, откройте WhatsApp и отправьте сообщение.</p>
+    </form>
+  </div>
+</section>
+</main>
+<footer class="foot">
+  <div class="wrap foot__grid">
+    <div>
+      <p class="foot__brand">ФабрикСтайл</p>
+      <p class="foot__small">Модульные кухни и шкафы. Доставка по всей Беларуси.</p>
+    </div>
+    <div>
+      <p class="foot__cap">Связаться</p>
+      <a class="foot__tel" href="tel:+375293546215">+375 (29) 354-62-15</a>
+      <a class="foot__small" href="https://wa.me/375293546215" rel="nofollow noopener" target="_blank">WhatsApp</a>
+    </div>
+    <div>
+      <p class="foot__cap">Разделы</p>
+      <ul class="foot__list">
+        <li><a href="katalog.html">Модули и размеры</a></li>
+        <li><a href="konstruktor.html">Конструктор раскладки</a></li>
+        <li><a href="raboty.html">Работы</a></li>
+        <li><a href="politika.html">Политика обработки данных</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap foot__bottom">
+    <p>ООО «ФабрикСтайл» · 2026</p>
+    <p>УНП: уточняется</p>
+  </div>
+</footer>
+<script src="assets/js/main.v1.js" defer></script>
+<div class="drawer" id="drawer" hidden>
+  <div class="drawer__back" data-close></div>
+  <div class="drawer__inner" role="dialog" aria-modal="true" aria-label="Меню">
+    <div class="drawer__top"><span class="drawer__cap">Меню</span><button class="drawer__x" type="button" data-close aria-label="Закрыть меню">×</button></div>
+    <ul class="drawer__list"><li><a href="index.html">Главная</a></li><li><a href="katalog.html">Модули</a></li><li><a href="konstruktor.html">Конструктор</a></li><li><a href="raboty.html">Работы</a></li><li><a href="o-kompanii.html">О компании</a></li><li><a href="kontakty.html">Контакты</a></li></ul>
+    <div class="drawer__foot">
+      <a class="drawer__tel" href="tel:+375293546215">+375 (29) 354-62-15</a>
+      <a class="btn btn--y" href="https://wa.me/375293546215" rel="nofollow noopener" target="_blank">Написать в WhatsApp</a>
+    </div>
+  </div>
+</div>
+</body>
+</html>
